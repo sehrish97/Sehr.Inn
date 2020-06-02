@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(223, 46, 46) !important;
+    height: auto !important;
+    color: black !important;
+    height: 4em !important;
+}
+.navbar-brand>img{
+    height: 40px !important;
+    width: 70px;  
+}
+.top{
+    color: rgb(255, 250, 250) !important;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 2em;
+    border: cornflowerblue !important;
+
+}
+.navbar-brand>img{
+    width: 3.5em !important ;
+    height: 3em !important;
+}
+.images{
+    height: auto !important;
+    width: auto !important;
+}
+.images>img{
+    width: 1140px !important;
+    height: 395.09px !important;
+}
+.navbar-nav>li{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: cornsilk;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.imgslider{
+    box-shadow: 4px 4px #5B84B1FF;
+}
+.navbar-nav>li:hover{
+    background-color: rgb(25, 47, 90);
+    text-decoration: none;
+    border-radius: 20px;
+}
+.navbar-nav>li>a{
+    text-decoration: none;
+}
+.BOOK{
+    border: 1px solid black;
+}
+h3{
+    text-indent: 14%;
+    color:  rgb(238, 42, 28);
+}
+.card-text{
+    font-family: URW Chancery L, cursive;
+}
+.booksec{
+    display: inline;
+    justify-content: space-between;
+    border: 1px solid;
+    display: flex;
+}
+.btn{
+    background-color: rgb(223, 46, 46) !important;
+}
+.card>img{
+    height: 250px !important;
+}
+h6{
+    text-align: center;
+}
+.novel1{
+    justify-content: space-around;
+}
+.--Footer{
+    background-color: #5B84B1FF;
+    color: seashell;
+}
+.deep-purple{
+    color: rgb(240, 36, 36) !important;
+}
+.bottum{
+    background-color: rgb(57, 109, 165) !important;
+    color: black;
+}
+.bottum>div>a{
+    color: white;
+}
+.bot>p>a{
+    color: wheat;
+}
+@media only screen and (max-width: 768px){
+    .top{
+        color: rgb(0, 0, 0) !important;
+
+    }
+    .navbar-nav>li{
+        border: none;
+        text-align: center;
+    }
+    #collapsenavbar{
+        background-color: rgb(223, 46, 46) !important;
+    }
+    .navbar-brand>img{
+        width: 3em !important ;
+        height: 3.5em !important;
+        padding-bottom: 1em !important;
+    }
+    .images{
+        height:100% !important;
+        width: 100% !important;
+    }
+    .images>img{
+        width: 100% !important;
+        height: 150px !important;
+    }
+    .contact2{
+        padding-top: 2em;
+    }
+}
+/* .foodslide>img{
+    height: 25em !important;
+    width: 70em !important;
+} */
+.booksec1{
+    display: inline;
+    justify-content: space-between;
+    display: flex;
+}
+/* contact us page */
+h2{
+    font-family: sans-serif;
+    font-size: 64px !important;
+    color: rgb(241, 38, 55);
+    text-shadow: 0 0 3px rgb(236, 107, 129),0 0 5px rgb(236, 107, 129);
+    font-weight:bolder !important;
+    font-style: oblique;
+    text-align: center;
+}
+.contact1{
+    border: rgb(46, 84, 160) solid;
+    border-radius: 75px;
+    text-align: center;
+    padding-top: 1em;
+    box-shadow: 0px 5px 5px rgb(107, 145, 223);
+    position: relative;
+    animation: myfirst 1s ;
+    animation-duration: 1s;
+}
+@keyframes myfirst{
+    from{ left: 0px}
+    to{left: 200px;}
+}
+.contact1>p>a{
+    text-decoration: none;
+    color: rgb(104, 69, 201) !important;
+    font-weight: normal;
+}
+.contact3{
+    text-align: center;
+    color: khaki;
+    font-size: 72px;
+}
